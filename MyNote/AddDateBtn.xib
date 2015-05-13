@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Uf9-Tn-KTo">
+            <rect key="frame" x="0.0" y="0.0" width="323" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0S0-X8-Qx7">
+                    <rect key="frame" x="277" y="0.0" width="46" height="30"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBa-T4-MTt">
+                    <rect key="frame" x="0.0" y="0.0" width="162" height="40"/>
+                    <color key="backgroundColor" red="0.41176470590000003" green="0.50980392159999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ue-jh-w8W">
+                    <rect key="frame" x="162" y="0.0" width="161" height="40"/>
+                    <color key="backgroundColor" red="0.41176470590000003" green="0.50980392159999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qBa-T4-MTt" firstAttribute="leading" secondItem="Uf9-Tn-KTo" secondAttribute="leading" id="1gb-it-dLI"/>
+                <constraint firstAttribute="bottom" secondItem="8Ue-jh-w8W" secondAttribute="bottom" id="8ab-Em-u35"/>
+                <constraint firstItem="8Ue-jh-w8W" firstAttribute="leading" secondItem="qBa-T4-MTt" secondAttribute="trailing" id="EbJ-9p-Vxb"/>
+                <constraint firstAttribute="bottom" secondItem="qBa-T4-MTt" secondAttribute="bottom" id="EcX-R4-eaf"/>
+                <constraint firstItem="qBa-T4-MTt" firstAttribute="width" secondItem="8Ue-jh-w8W" secondAttribute="width" id="Lf3-K8-oMF"/>
+                <constraint firstAttribute="trailing" secondItem="8Ue-jh-w8W" secondAttribute="trailing" id="eum-IO-sGP"/>
+                <constraint firstItem="qBa-T4-MTt" firstAttribute="top" secondItem="Uf9-Tn-KTo" secondAttribute="top" id="mUO-ZO-x6Y"/>
+                <constraint firstItem="8Ue-jh-w8W" firstAttribute="top" secondItem="Uf9-Tn-KTo" secondAttribute="top" id="vNb-fm-bqp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="407.5" y="272"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

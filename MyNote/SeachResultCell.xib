@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SeachResultCell" rowHeight="99" id="KGk-i7-Jjw" customClass="SeachResultCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2015年05月13日" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DR-t1-U37">
+                        <rect key="frame" x="8" y="38" width="116" height="23"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="类别:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hh3-mk-P5V">
+                        <rect key="frame" x="133" y="8" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="一二三四-一二三四" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XX2-51-AEu">
+                        <rect key="frame" x="183" y="9" width="129" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="金额:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9c-lR-WlC">
+                        <rect key="frame" x="133" y="39" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="一二三四-一二三四" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z41-B2-dUs">
+                        <rect key="frame" x="183" y="40" width="129" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="备注:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vb6-mI-w5f">
+                        <rect key="frame" x="133" y="68" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="一二三四-一二三四" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wrc-hd-DHX">
+                        <rect key="frame" x="183" y="61" width="121" height="38"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="XX2-51-AEu" secondAttribute="trailing" constant="8" id="4cy-yr-X2n"/>
+                    <constraint firstItem="Wrc-hd-DHX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="183" id="6Ni-aw-XLs"/>
+                    <constraint firstItem="XX2-51-AEu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="7by-De-rar"/>
+                    <constraint firstItem="Z41-B2-dUs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="183" id="DSf-ef-SNS"/>
+                    <constraint firstItem="XX2-51-AEu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="183" id="NJA-of-zmE"/>
+                    <constraint firstItem="Wrc-hd-DHX" firstAttribute="width" secondItem="XX2-51-AEu" secondAttribute="width" id="W9z-R6-jfB"/>
+                    <constraint firstItem="Wrc-hd-DHX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="60" id="l44-Nh-H7x"/>
+                    <constraint firstAttribute="trailing" secondItem="Z41-B2-dUs" secondAttribute="trailing" constant="8" id="ph2-Yl-thA"/>
+                    <constraint firstItem="XX2-51-AEu" firstAttribute="width" secondItem="Z41-B2-dUs" secondAttribute="width" id="sHO-UA-zel"/>
+                    <constraint firstItem="Z41-B2-dUs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="39" id="u8f-fa-bh9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="categoryLabel" destination="XX2-51-AEu" id="vr6-ux-yKW"/>
+                <outlet property="moneyLabel" destination="Z41-B2-dUs" id="Qez-lg-lLf"/>
+                <outlet property="remarkLabel" destination="Wrc-hd-DHX" id="jbD-3h-QE4"/>
+                <outlet property="timeTitle" destination="5DR-t1-U37" id="FKZ-HU-vy4"/>
+            </connections>
+            <point key="canvasLocation" x="297" y="294"/>
+        </tableViewCell>
+    </objects>
+</document>
